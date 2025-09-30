@@ -4,36 +4,59 @@
 }
 
 <div class="container mt-4">
-    <h1 class="text-center " style="color:#e75480;"><strong>Profile</strong></h1>
-    <div class="card mt-3"
-         style="max-width: 400px; margin: auto; border:2px solid #ffc0cb; border-radius:20px;
-                box-shadow:0 4px 15px rgba(255,182,193,0.6);
-                background: linear-gradient(135deg, #ffe6f0 0%, #ffd6eb 50%, #fff0f5 100%);">
+    <!-- Cover Header -->
+    <div style="height:150px; background:linear-gradient(135deg,#ff9a9e 0%,#fecfef 100%);
+                border-radius:15px; position:relative;">
+    </div>
+
+    <div class="card mt-n5"
+         style="max-width: 450px; margin: auto; border:none; border-radius:20px;
+                box-shadow:0 8px 25px rgba(255,182,193,0.5);">
         <div class="card-body text-center">
             <!-- Foto Profile -->
-            <img class="profile-user-img img-fluid img-circle mb-3"
-                 src="https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg"
+            <img class="rounded-circle shadow-lg mb-3 border border-3 border-white"
+                 src="https://i.pinimg.com/736x/2f/f5/11/2ff511ddf701691c141c93c65ceaf58a.jpg"
                  alt="User profile picture"
-                 style="width:120px; height:120px; object-fit:cover;">
+                 style="width:120px; height:120px; object-fit:cover; margin-top:-70px;">
 
             <!-- Nama -->
-            <h4 class="mb-0" style="color:#ff69b4;">Bukan Ayu</h4>
+            <h4 class="mb-0" style="color:#e75480;">Dyah Ayu Puspitosari</h4>
             <p class="text-muted">🌸 Software Engineer 🌸</p>
 
-            <hr style="border-top:2px dashed #ffb6c1;">
+            <!-- Social Links -->
+            <div class="mb-3">
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-github fa-lg"></i></a>
+                <a href="#" class="text-primary mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="#" class="text-danger mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+            </div>
+
+            <hr>
 
             <!-- Data Info -->
-            <div class="d-flex justify-content-between px-3 py-2">
-                <span style="color:#e75480;"><strong>Followers</strong></span>
-                <span style="color:#ff69b4;">1,322</span>
+            <div class="d-flex justify-content-around text-center">
+                <div>
+                    <i class="fas fa-users" style="color:#e75480;"></i>
+                    <p class="mb-0"><strong>Followers</strong></p>
+                    <span style="color:#ff69b4;">1,322</span>
+                </div>
+                <div>
+                    <i class="fas fa-user-plus" style="color:#e75480;"></i>
+                    <p class="mb-0"><strong>Following</strong></p>
+                    <span style="color:#ff69b4;">543</span>
+                </div>
+                <div>
+                    <i class="fas fa-handshake" style="color:#e75480;"></i>
+                    <p class="mb-0"><strong>Friends</strong></p>
+                    <span style="color:#ff69b4;">13,287</span>
+                </div>
             </div>
-            <div class="d-flex justify-content-between px-3 py-2">
-                <span style="color:#e75480;"><strong>Following</strong></span>
-                <span style="color:#ff69b4;">543</span>
-            </div>
-            <div class="d-flex justify-content-between px-3 py-2">
-                <span style="color:#e75480;"><strong>Friends</strong></span>
-                <span style="color:#ff69b4;">13,287</span>
+
+            <hr>
+
+            <!-- Action Buttons -->
+            <div>
+                <button class="btn btn-sm btn-pink" style="background:#ff69b4; color:white; border-radius:20px;">Follow</button>
+                <button class="btn btn-sm btn-outline-pink" style="color:#ff69b4; border:1px solid #ff69b4; border-radius:20px;">Message</button>
             </div>
         </div>
     </div>
